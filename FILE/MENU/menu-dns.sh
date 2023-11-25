@@ -30,7 +30,7 @@ echo -e "$COLOR1 ${NC}"
 echo -e "$COLOR1 ${NC}  ${ERROR} DNS Cannot Be Empty";
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e "$COLOR1┌────────────────────── ${WH}BY${NC} ${COLOR1}───────────────────────┐${NC}"
-echo -e "$COLOR1 ${NC}                ${WH}• ZenHost Script •${NC}                 $COLOR1 $NC"
+echo -e "$COLOR1 ${NC}                ${WH}• Mousevpn •${NC}                 $COLOR1 $NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e ""
 read -n 1 -s -r -p "   Press any key to back on menu"
@@ -47,7 +47,7 @@ echo -e "$COLOR1 ${NC}  ${INFO} DNS Update Successfully";
 fi
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e "$COLOR1┌────────────────────── ${WH}BY${NC} ${COLOR1}───────────────────────┐${NC}"
-echo -e "$COLOR1 ${NC}                ${WH}• ZenHost Script •${NC}                 $COLOR1 $NC"
+echo -e "$COLOR1 ${NC}                ${WH}• Mousevpn •${NC}                 $COLOR1 $NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e ""
 read -n 1 -s -r -p "   Press any key to back on menu"
@@ -79,7 +79,7 @@ echo -e "$COLOR1 ${NC}   $INFO Operation Cancelled By User"
 fi
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e "$COLOR1┌────────────────────── ${WH}BY${NC} ${COLOR1}───────────────────────┐${NC}"
-echo -e "$COLOR1 ${NC}                ${WH}• ZenHost Script •${NC}                 $COLOR1 $NC"
+echo -e "$COLOR1 ${NC}                ${WH}• Mousevpn •${NC}                 $COLOR1 $NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e ""
 read -n 1 -s -r -p "   Press any key to back on menu"
@@ -87,7 +87,7 @@ menu-dns
 }
 
 function check-dns(){
-    bash <(curl -sSL https://raw.githubusercontent.com/sreyaeve/sshxrayv3/main/FILE/MENU/ceknet.sh)
+    bash <(curl -sSL https://raw.githubusercontent.com/mousethain/v1/main/FILE/MENU/ceknet.sh)
 read -n 1 -s -r -p "   Press any key to back on menu"
 menu
 }
