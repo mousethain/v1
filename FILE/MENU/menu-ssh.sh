@@ -242,7 +242,7 @@ echo -e "$COLOR1┌────────────────────�
 echo -e "$COLOR1 ${NC} ${COLBG1}               ${WH}• WEBSOCKET MENU •              ${NC} $COLOR1 $NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"
 echo -e "$COLOR1┌─────────────────────────────────────────────────┐${NC}" 
-wget -q -O /usr/bin/ssh-wsenabler "https://raw.githubusercontent.com/sreyaeve/multi/main/FILE/SSH/sshws-true.sh" && chmod +x /usr/bin/ssh-wsenabler
+wget -q -O /usr/bin/ssh-wsenabler "https://raw.githubusercontent.com/mousethain/v1/main/FILE/SSH/sshws-true.sh" && chmod +x /usr/bin/ssh-wsenabler
 systemctl daemon-reload >/dev/null 2>&1
 systemctl enable sshws.service >/dev/null 2>&1
 systemctl start sshws.service >/dev/null 2>&1
@@ -297,7 +297,7 @@ echo -e "$COLOR1 $NC"
 echo -e "$COLOR1 $NC   ${WH}[${COLOR1}00${WH}]${NC} ${COLOR1}• ${WH}GO BACK${NC}"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e "$COLOR1┌────────────────────── ${WH}BY${NC} ${COLOR1}───────────────────────┐${NC}"
-echo -e "$COLOR1 ${NC}                ${WH}• ZenHost Script •${NC}                 $COLOR1 $NC"
+echo -e "$COLOR1 ${NC}                ${WH}• Mousevpn •${NC}                 $COLOR1 $NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"
 echo ""
 echo -ne " ${WH}Select menu ${COLOR1}: ${WH}"; read opt
@@ -374,7 +374,7 @@ rm -f /tmp/vpn-login-tcp.txt
 rm -f /tmp/vpn-login-udp.txt
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e "$COLOR1┌────────────────────── ${WH}BY${NC} ${COLOR1}───────────────────────┐${NC}"
-echo -e "$COLOR1 ${NC}                ${WH}• ZenHost Script •${NC}                 $COLOR1 $NC"
+echo -e "$COLOR1 ${NC}                ${WH}• Mousevpn •${NC}                 $COLOR1 $NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"
 echo "";
 read -n 1 -s -r -p "   Press any key to back on menu"
@@ -402,7 +402,7 @@ fi
 fi
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e "$COLOR1┌────────────────────── ${WH}BY${NC} ${COLOR1}───────────────────────┐${NC}"
-echo -e "$COLOR1 ${NC}                ${WH}• ZenHost Script •${NC}                 $COLOR1 $NC"
+echo -e "$COLOR1 ${NC}                ${WH}• Mousevpn •${NC}                 $COLOR1 $NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"
 echo -e ""
 read -n 1 -s -r -p "   Press any key to back on menu"
@@ -423,7 +423,7 @@ else
 echo -e "$COLOR1 ${NC}   [INFO] Failure: User $User Not Exist."
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e "$COLOR1┌────────────────────── ${WH}BY${NC} ${COLOR1}───────────────────────┐${NC}"
-echo -e "$COLOR1 ${NC}                ${WH}• ZenHost Script •${NC}                 $COLOR1 $NC"
+echo -e "$COLOR1 ${NC}                ${WH}• Mousevpn •${NC}                 $COLOR1 $NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"
 echo ""
 read -n 1 -s -r -p "   Press any key to back on menu"
@@ -434,7 +434,7 @@ if [ -z $User ]; then
 echo -e "$COLOR1 ${NC}   [Error] Username cannot be empty "
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e "$COLOR1┌────────────────────── ${WH}BY${NC} ${COLOR1}───────────────────────┐${NC}"
-echo -e "$COLOR1 ${NC}                ${WH}• ZenHost Script •${NC}                 $COLOR1 $NC"
+echo -e "$COLOR1 ${NC}                ${WH}• Mousevpn •${NC}                 $COLOR1 $NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"
 echo ""
 read -n 1 -s -r -p "   Press any key to back on menu"
@@ -466,7 +466,7 @@ echo -e "   ${WH}Days Added ${COLOR1}: ${WH}$Days Days"
 echo -e "   ${WH}Expires on ${COLOR1}: ${WH}$Expiration_Display"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e "$COLOR1┌────────────────────── ${WH}BY${NC} ${COLOR1}───────────────────────┐${NC}"
-echo -e "$COLOR1 ${NC}                ${WH}• ZenHost Script •${NC}                 $COLOR1 $NC"
+echo -e "$COLOR1 ${NC}                ${WH}• Mousevpn •${NC}                 $COLOR1 $NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"
 else
 clear
@@ -477,7 +477,7 @@ echo -e "$COLOR1┌────────────────────�
 echo -e "   Username Doesnt Exist      "
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e "$COLOR1┌────────────────────── ${WH}BY${NC} ${COLOR1}───────────────────────┐${NC}"
-echo -e "$COLOR1 ${NC}                ${WH}• ZenHost Script •${NC}                 $COLOR1 $NC"
+echo -e "$COLOR1 ${NC}                ${WH}• Mousevpn •${NC}                 $COLOR1 $NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"
 fi
 echo ""
@@ -515,7 +515,7 @@ echo -e "$COLOR1┌────────────────────�
 echo "   Total: $JUMLAH User"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e "$COLOR1┌────────────────────── ${WH}BY${NC} ${COLOR1}───────────────────────┐${NC}"
-echo -e "$COLOR1 ${NC}                ${WH}• ZenHost Script •${NC}                 $COLOR1 $NC"
+echo -e "$COLOR1 ${NC}                ${WH}• Mousevpn •${NC}                 $COLOR1 $NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"
 echo ""
 read -n 1 -s -r -p "   Press any key to back on menu"
@@ -573,7 +573,7 @@ echo -e "$COLOR1┌────────────────────�
 echo -e "  ${WH}GET http://bug.com HTTP/1.1[crlf]Host: $domen [crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]Connection: Keep-Alive[crlf][crlf]${NC}"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e "$COLOR1┌────────────────────── ${WH}BY${NC} ${COLOR1}───────────────────────┐${NC}"
-echo -e "$COLOR1 ${NC}                ${WH}• ZenHost Script •${NC}                 $COLOR1 $NC"
+echo -e "$COLOR1 ${NC}                ${WH}• Mousevpn •${NC}                 $COLOR1 $NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"
 
 else
@@ -600,7 +600,7 @@ echo -e "$COLOR1┌────────────────────�
 echo -e "$COLOR1 ${NC}  ${WH}GET http://bug.com HTTP/1.1[crlf]Host: $domen [crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]Connection: Keep-Alive[crlf][crlf]${NC}"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e "$COLOR1┌────────────────────── ${WH}BY${NC} ${COLOR1}───────────────────────┐${NC}"
-echo -e "$COLOR1 ${NC}                ${WH}• ZenHost Script •${NC}                 $COLOR1 $NC"
+echo -e "$COLOR1 ${NC}                ${WH}• Mousevpn •${NC}                 $COLOR1 $NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"
 fi
 echo ""
@@ -620,7 +620,7 @@ echo -e " $COLOR1┌────────────────────
  $COLOR1 $NC   ${WH}[${COLOR1}00${WH}]${NC} ${COLOR1}• ${WH}GO BACK${NC}                              $COLOR1 $NC"
 echo -e " $COLOR1└───────────────────────────────────────────────┘${NC}" 
 echo -e "$COLOR1┌────────────────────── ${WH}BY${NC} ${COLOR1}───────────────────────┐${NC}"
-echo -e "$COLOR1 ${NC}                ${WH}• ZenHost Script •${NC}                 $COLOR1 $NC"
+echo -e "$COLOR1 ${NC}                ${WH}• Mousevpn •${NC}                 $COLOR1 $NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"
 echo -e ""
 echo -ne " ${WH}Select menu ${COLOR1}: ${WH}"; read opt
