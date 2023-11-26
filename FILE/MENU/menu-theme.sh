@@ -13,7 +13,7 @@ WH='\033[1;37m'
 
 
 BURIQ () {
-    curl -sS https://raw.githubusercontent.com/sreyaeve/sshxrayv3/main/ip/access > /root/tmp
+    curl -sS https://raw.githubusercontent.com/mousethain/v1/main/ip/access > /root/tmp
     data=( `cat /root/tmp | grep -E "^### " | awk '{print $2}'` )
     for user in "${data[@]}"
     do
@@ -31,7 +31,7 @@ BURIQ () {
 }
 
 MYIP=$(curl -sS ipv4.icanhazip.com)
-Name=$(curl -sS https://raw.githubusercontent.com/sreyaeve/sshxrayv3/main/ip/access | grep $MYIP | awk '{print $2}')
+Name=$(curl -sS https://raw.githubusercontent.com/mousethain/v1/main/ip/access | grep $MYIP | awk '{print $2}')
 echo $Name > /usr/local/etc/.$Name.ini
 CekOne=$(cat /usr/local/etc/.$Name.ini)
 
@@ -48,7 +48,7 @@ fi
 
 PERMISSION () {
     MYIP=$(curl -sS ipv4.icanhazip.com)
-    IZIN=$(curl -sS https://raw.githubusercontent.com/sreyaeve/sshxrayv3/main/ip/access | awk '{print $4}' | grep $MYIP)
+    IZIN=$(curl -sS https://raw.githubusercontent.com/mousethain/v1/main/ip/access | awk '{print $4}' | grep $MYIP)
     if [ "$MYIP" = "$IZIN" ]; then
     Bloman
     else
@@ -74,7 +74,7 @@ echo -e " $COLOR1 $NC"
 echo -e " $COLOR1 $NC  ${WH}[${COLOR1}00${WH}]$NC ${COLOR1}• ${WH}GO BACK$NC"
 echo -e " $COLOR1└───────────────────────────────────────────────┘${NC}"
 echo -e "$COLOR1┌────────────────────── ${WH}BY${NC} ${COLOR1}───────────────────────┐${NC}"
-echo -e "$COLOR1 ${NC}                ${WH}• ZenHost Script •${NC}                 $COLOR1 $NC"
+echo -e "$COLOR1 ${NC}                ${WH}• Mousevpn •${NC}                 $COLOR1 $NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"
 echo -e ""
 echo -ne " ${WH}Select menu ${COLOR1}: ${WH}"; read colormenu 
@@ -91,7 +91,7 @@ echo -e " $COLOR1 $NC ${WH}[${COLOR1}INFO${WH}] ${WH}TEAM BLUE Active Successful
 echo -e " $COLOR1 $NC"
 echo -e " $COLOR1└───────────────────────────────────────────────┘${NC}"
 echo -e "$COLOR1┌────────────────────── ${WH}BY${NC} ${COLOR1}───────────────────────┐${NC}"
-echo -e "$COLOR1 ${NC}                ${WH}• ZenHost Script •${NC}                 $COLOR1 $NC"
+echo -e "$COLOR1 ${NC}                ${WH}• Mousevpn •${NC}                 $COLOR1 $NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"                                                                                                                          
 ;;
 02 | 2)
@@ -106,7 +106,7 @@ echo -e " $COLOR1 $NC ${WH}[${COLOR1}INFO${WH}] ${WH}TEAM RED Active Successfull
 echo -e " $COLOR1 $NC"
 echo -e " $COLOR1└───────────────────────────────────────────────┘${NC}"
 echo -e "$COLOR1┌────────────────────── ${WH}BY${NC} ${COLOR1}───────────────────────┐${NC}"
-echo -e "$COLOR1 ${NC}                ${WH}• ZenHost Script •${NC}                 $COLOR1 $NC"
+echo -e "$COLOR1 ${NC}                ${WH}• Mousevpn •${NC}                 $COLOR1 $NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 ;;
 03 | 3)
@@ -121,7 +121,7 @@ echo -e " $COLOR1 $NC ${WH}[${COLOR1}INFO${WH}] ${WH}TEAM YELLOW Active Successf
 echo -e " $COLOR1 $NC"
 echo -e " $COLOR1└───────────────────────────────────────────────┘${NC}"
 echo -e "$COLOR1┌────────────────────── ${WH}BY${NC} ${COLOR1}───────────────────────┐${NC}"
-echo -e "$COLOR1 ${NC}                ${WH}• ZenHost Script •${NC}                 $COLOR1 $NC"
+echo -e "$COLOR1 ${NC}                ${WH}• Mousevpn •${NC}                 $COLOR1 $NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 ;;
 04 | 4)
@@ -136,7 +136,7 @@ echo -e " $COLOR1 $NC ${WH}[${COLOR1}INFO${WH}] ${WH}TEAM CYAN Active Successful
 echo -e " $COLOR1 $NC"
 echo -e " $COLOR1└───────────────────────────────────────────────┘${NC}"
 echo -e "$COLOR1┌────────────────────── ${WH}BY${NC} ${COLOR1}───────────────────────┐${NC}"
-echo -e "$COLOR1 ${NC}                ${WH}• ZenHost Script •${NC}                 $COLOR1 $NC"
+echo -e "$COLOR1 ${NC}                ${WH}• Mousevpn •${NC}                 $COLOR1 $NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 ;;
 05 | 5)
@@ -151,7 +151,7 @@ echo -e " $COLOR1 $NC ${WH}[${COLOR1}INFO${WH}] ${WH}TEAM GREEN Active Successfu
 echo -e " $COLOR1 $NC"
 echo -e " $COLOR1└───────────────────────────────────────────────┘${NC}"
 echo -e "$COLOR1┌────────────────────── ${WH}BY${NC} ${COLOR1}───────────────────────┐${NC}"
-echo -e "$COLOR1 ${NC}                ${WH}• ZenHost Script •${NC}                 $COLOR1 $NC"
+echo -e "$COLOR1 ${NC}                ${WH}• Mousevpn •${NC}                 $COLOR1 $NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 ;;
 06 | 6)
@@ -166,7 +166,7 @@ echo -e " $COLOR1 $NC ${WH}[${COLOR1}INFO${WH}] ${WH}TEAM MAGENTA Active Success
 echo -e " $COLOR1 $NC"
 echo -e " $COLOR1└───────────────────────────────────────────────┘${NC}"
 echo -e "$COLOR1┌────────────────────── ${WH}BY${NC} ${COLOR1}───────────────────────┐${NC}"
-echo -e "$COLOR1 ${NC}                ${WH}• ZenHost Script •${NC}                 $COLOR1 $NC"
+echo -e "$COLOR1 ${NC}                ${WH}• Mousevpn •${NC}                 $COLOR1 $NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 ;;
 00 | 0)
