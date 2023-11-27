@@ -1,5 +1,5 @@
 #!/bin/bash
-# My Telegram : https://t.me/zenhost_official
+# My Telegram : https://t.me/Mousevpn
 # ==========================================
 # Color
 RED='\033[0;31m'
