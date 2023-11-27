@@ -14,11 +14,11 @@ LIGHT='\033[0;37m'
 MYIP=$(wget -qO- ipinfo.io/ip);
 echo "Checking VPS"
 # Link Hosting Kalian
-zenhost="raw.githubusercontent.com/sreyaeve/sshxrayv3/main/backup"
+Mousevpn="https://raw.githubusercontent.com/mousethain/v1/main/backup"
 
 apt install rclone -y
 printf "q\n" | rclone config
-wget -O /root/.config/rclone/rclone.conf "raw.githubusercontent.com/sreyaeve/sshxrayv3/main/backup/rclone.conf"
+wget -O /root/.config/rclone/rclone.conf "https://raw.githubusercontent.com/mousethain/v1/main/backup/rclone.conf"
 git clone  https://github.com/magnific0/wondershaper.git
 cd wondershaper
 make install
@@ -43,10 +43,10 @@ logfile ~/.msmtp.log
 EOF
 chown -R www-data:www-data /etc/msmtprc
 cd /usr/bin
-wget -O autobackup "https://${zenhost}/autobackup.sh"
-wget -O backup "https://${zenhost}/backup.sh"
-wget -O restore "https://${zenhost}/restore.sh"
-wget -O limitspeed "https://${zenhost}/limitspeed.sh"
+wget -O autobackup "https://${Mousevpn}/autobackup.sh"
+wget -O backup "https://${Mousevpn}/backup.sh"
+wget -O restore "https://${Mousevpn}/restore.sh"
+wget -O limitspeed "https://${Mousevpn}/limitspeed.sh"
 chmod +x autobackup
 chmod +x backup
 chmod +x restore
